@@ -1,14 +1,10 @@
 import { combineReducers } from 'redux';
 import searchReducer from './search.reducer';
-// import authReducer from './auth.reducer';
-// import profileReducer from './profile.reducer';
-// import postReducer from './post.reducer';
+import movieReducer from './movie.reducer';
 
 const rootReducer = combineReducers({
     searchRes: searchReducer,
-    // auth: authReducer,
-    // profile: profileReducer,
-    // post: postReducer,
+    movie: movieReducer,
 })
 
 export default rootReducer;

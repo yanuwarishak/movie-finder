@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-import { GET_DETAIL, GET_DETAIL_FAILED } from "./types";
+import { GET_DETAIL, GET_DETAIL_FAILED, CLEAR_DETAIL } from "./types";
 
-export const searchMovies = (id) => async dispatch => {
+export const getMovieDetails = (id) => async dispatch => {
     try {
-        const res = await axios.get(`http://www.omdbapi.com/?apikey=faf7e5bb&i=${id}`);
+        const res = await axios.get(`http://www.omdbapi.com/?apikey=2a818054&i=${id}`);
         dispatch({
             type: GET_DETAIL,
             payload: res.data
@@ -15,4 +15,10 @@ export const searchMovies = (id) => async dispatch => {
             payload: err
         })
     }
+}
+
+export const clearDetailPage = () => async dispatch => {
+    dispatch({
+        type: CLEAR_DETAIL,
+    })
 }

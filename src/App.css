@@ -1,0 +1,72 @@
+/* Search Styling */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar {
+  margin: 20px;
+  padding: 5px;
+  width: 300px;
+}
+
+.search-submit {
+  align-self: center;
+  width: 100px;
+  padding: 10px 1px;
+  margin: 10px;
+}
+
+/* Modal styling */
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000aa;
+}
+
+.image-modal {
+  height: 75vh;
+}
+
+/* Movie Container */
+.movie-container {
+  margin: 10px 5px;
+  padding: 10px 5px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-title {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  margin: 5px;
+}
+
+.movie-year {
+  margin: 5px;
+}
+
+/* Suggestion Container */
+.suggestion-container {
+  width: 400px;
+  background-color: antiquewhite;
+  display: flex;
+}
