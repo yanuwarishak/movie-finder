@@ -24,7 +24,7 @@ const Detail = ({
   }, []);
 
   return (
-    <div className="search-container">
+    <div data-testid="detail-container" className="search-container">
       <h1>{movie.Title}</h1>
       <h2>{movie.Year}</h2>
       <p>{movie.Plot}</p>
