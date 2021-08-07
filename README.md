@@ -1,6 +1,7 @@
 # Movie Finder and Anagram Test
-## How to run the project
+You can access the Movie Finder from https://yanuwarishak.github.io/movie-finder/
 
+## How to run the project
 After cloning the project and cd into the project directory, firstly you need to run:
 ### `npm install`
 After the installation process finished you can run the project by typing:
