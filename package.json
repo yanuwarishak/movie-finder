@@ -1,6 +1,7 @@
 {
   "name": "movie-finder",
   "version": "0.1.0",
+  "homepage": "https://yanuwarishak.github.io/movie-finder/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -23,7 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "logic": "node anagram.js"
+    "logic": "node anagram.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
